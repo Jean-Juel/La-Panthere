@@ -162,7 +162,7 @@ input[type=submit] {
 
 button[disabled],
 html input[disabled] {
-    cursor: default
+    /*cursor: default*/
 }
 
 button::-moz-focus-inner,
@@ -1419,7 +1419,8 @@ a:hover {
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
+    color: #cccccc!important;
 }
 
 figure {
@@ -3683,7 +3684,9 @@ textarea.input-lg {
 .btn:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: -2px;
+    background: #c27956!important;
+
 }
 
 .btn.focus,
@@ -4884,7 +4887,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid black
 }
 
 .nav-tabs>li {
@@ -5444,7 +5447,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
     color: #5e5e5e;
-    background-color: transparent
+    background-color:  #5e5e5e
 }
 
 .navbar-default .navbar-text {
