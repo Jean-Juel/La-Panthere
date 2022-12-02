@@ -344,7 +344,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -711,6 +711,27 @@ p {
     margin: auto auto auto auto;
 }
 
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+}
+
+.visually-hidden.focusable:focus {
+    position: static !important;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black !important;
+}
+
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -790,7 +811,8 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus{
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -975,6 +997,10 @@ h4 {
     .navbar-brand img {
         max-height: 40px;
         width: auto;
+    }
+
+    .navbar-brand:focus img {
+        border: 1px solid black;
     }
     .nav-invert .navbar-header {
         float: none;
