@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "concat-css" : "concat -o css/style.concat.css css/bootstrap.css css/et-line.css css/font-awesome.css css/style.css",
-    "compress": "sass css/style.concat.css css/style.concat.min.css --style compressed"
-
+    "concat-css" : "concat -o css/style.concat.css css/bootstrap.css css/et-line.css css/font-awesome.css css/style.css"
   },
   "repository": {
     "type": "git",
