@@ -1,0 +1,23 @@
+{
+  "name": "panthere-occ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "concat-css" : "concat -o css/style.concat.css css/bootstrap.css css/et-line.css css/font-awesome.css css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Juel/La-Panthere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-Juel/La-Panthere/issues"
+  },
+  "homepage": "https://github.com/Jean-Juel/La-Panthere#readme",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^8.0.0"
+  }
+}
