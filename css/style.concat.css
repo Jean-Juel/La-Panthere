@@ -1599,7 +1599,8 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 30px
+    color: white !important;
+    font-size: 32px !important;
 }
 
 .h3,
@@ -4296,7 +4297,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid;
+    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -12413,6 +12414,11 @@ h3 {
 
 h1 {
     color: #333333!important;
+}
+
+.clo-sm-12 .flex .h2 {
+    color: white;
+    font-size: 32px;
 }
 
 h4 {

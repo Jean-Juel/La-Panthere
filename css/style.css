@@ -765,6 +765,12 @@ h1 {
     color: #333333!important;
 }
 
+.clo-sm-12 .flex .h2 {
+    color: white !important;
+    font-size: 32px !important;
+    text-transform: uppercase;
+}
+
 h4 {
     color: #333333!important;
 }
