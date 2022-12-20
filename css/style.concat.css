@@ -1599,8 +1599,7 @@ h1 {
 
 .h2,
 h2 {
-    color: white !important;
-    font-size: 32px !important;
+    font-size: 30px
 }
 
 .h3,
@@ -11741,9 +11740,15 @@ a:hover {
     right: 0;
 }
 
+#bloc-5-cta:before {
+    z-index: -1;
+
+}
+
 .texture-paper::before {
     background: url("../img/texture-paper.png");
     background-size: 280px 280px;
+    mix-blend-mode: darken;
 }
 
 .b-parallax {
@@ -12356,8 +12361,53 @@ p {
 
 .width-3 {
     max-width: 300px;
-
 }
+
+.z-index-2 {
+    z-index: -2;
+}
+.z-index-1 {
+    z-index: -1;
+}
+
+
+.white {
+    color: white;
+}
+
+.linear {
+    background: rgb(97,97,97) !important;
+    background: linear-gradient(106deg, rgba(97,97,97,1) 0%, rgba(59,59,59,1) 51%, rgba(97,97,97,1) 100%);
+}
+
+.blend-darker {
+    background-blend-mode: difference;
+}
+.font14 {
+    font-size: 14px;
+}
+.font15 {
+    font-size: 15px;
+}
+.font16 {
+    font-size: 16px;
+}
+.font18 {
+    font-size: 18px;
+}
+.font22 {
+    font-size: 22px;
+}
+.font24 {
+    font-size: 24px;
+}
+.font26 {
+    font-size: 26px;
+}
+.font28 {
+    font-size: 28px;
+}
+
 
 .cta-hero {
     margin-top: 22px;
@@ -12396,7 +12446,7 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.1em;
 }
 
 h3 {
@@ -12417,8 +12467,9 @@ h1 {
 }
 
 .clo-sm-12 .flex .h2 {
-    color: white;
-    font-size: 32px;
+    color: white !important;
+    font-size: 32px !important;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -12448,7 +12499,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(45 40 25 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -12518,7 +12569,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg");
+    background-image:url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
